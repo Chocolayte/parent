@@ -320,11 +320,6 @@
 				<version>${atomikos.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.googlecode.xmemcached</groupId>
-				<artifactId>xmemcached</artifactId>
-				<version>${xmemcached.version}</version>
-			</dependency>
-			<dependency>
 				<groupId>net.sf.json-lib</groupId>
 				<artifactId>json-lib</artifactId>
 				<classifier>jdk15</classifier>
