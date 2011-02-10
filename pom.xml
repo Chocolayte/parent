@@ -63,7 +63,7 @@
 		<changes.version>2.3</changes.version>
 		<dbunit-maven.version>1.0-beta-3</dbunit-maven.version>
 		<source.version>2.1.2</source.version>
-		<sonar.version>2.4.1</sonar.version>
+		<sonar.version>2.0-beta-2</sonar.version>
 	</properties>
 
 	<dependencyManagement>
@@ -447,8 +447,8 @@
 			        <version>${source.version}</version>
 		        </plugin>
 		        <plugin>
-				    <groupId>org.codehaus.sonar</groupId>
-				    <artifactId>sonar-maven-plugin</artifactId>
+				    <groupId>org.codehaus.mojo</groupId>
+			        <artifactId>sonar-maven-plugin</artifactId>
 				    <version>${sonar.version}</version>
 				</plugin>
 			</plugins>
