@@ -18,7 +18,7 @@
 		<struts2.version>2.2.1</struts2.version>
 		<xwork.version>2.2.1</xwork.version>
 		<jbpm4.version>4.4</jbpm4.version>
-		<activiti.version>5.1</activiti.version>
+		<activiti.version>5.3</activiti.version>
 		<xmemcached.version>1.2.6.1</xmemcached.version>
 		<atomikos.version>3.6.4</atomikos.version>
 		<quartz.version>1.8.4</quartz.version>
