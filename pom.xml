@@ -25,6 +25,7 @@
         <struts2.version>2.2.1.1</struts2.version>
         <jbpm4.version>4.4</jbpm4.version>
         <activiti.version>5.5</activiti.version>
+        <drools.version>5.1.1</drools.version>
         <xmemcached.version>1.2.6.1</xmemcached.version>
         <atomikos.version>3.6.4</atomikos.version>
         <quartz.version>1.8.4</quartz.version>
@@ -284,6 +285,41 @@
                 <groupId>org.activiti</groupId>
                 <artifactId>activiti-spring</artifactId>
                 <version>${activiti.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-api</artifactId>
+                <version>${drools.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-compiler</artifactId>
+                <version>${drools.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-core</artifactId>
+                <version>${drools.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-jsr94</artifactId>
+                <version>${drools.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-bpmn2</artifactId>
+                <version>${drools.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-decisiontables</artifactId>
+                <version>${drools.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-spring</artifactId>
+                <version>${drools.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.h2database</groupId>
