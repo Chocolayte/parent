@@ -71,6 +71,7 @@
         <dbunit-maven.version>1.0-beta-3</dbunit-maven.version>
         <source.version>2.1.2</source.version>
         <sonar.version>2.0-beta-2</sonar.version>
+        <migration.version>1.0.0</migration.version>
     </properties>
 
     <dependencyManagement>
@@ -492,6 +493,11 @@
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>sonar-maven-plugin</artifactId>
                     <version>${sonar.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.mybatis.maven</groupId>
+                    <artifactId>maven-migration-plugin</artifactId>
+                    <version>${migration.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
