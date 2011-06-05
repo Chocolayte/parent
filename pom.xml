@@ -3,16 +3,16 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.bulain</groupId>
-    <artifactId>activiti5-parent</artifactId>
+    <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
-    <name>activiti5-parent</name>
-    <url>https://github.com/bulain/activiti5-parent</url>
+    <name>parent</name>
+    <url>https://github.com/bulain/parent</url>
 
     <scm>
-        <connection>scm:git:git@github.com:bulain/activiti5-parent.git</connection>
-        <developerConnection>scm:git:git@github.com:bulain/activiti5-parent.git</developerConnection>
-        <url>git@github.com:bulain/activiti5-parent.git</url>
+        <connection>scm:git:git@github.com:bulain/parent.git</connection>
+        <developerConnection>scm:git:git@github.com:bulain/parent.git</developerConnection>
+        <url>git@github.com:bulain/parent.git</url>
     </scm>
 
     <properties>
