@@ -47,6 +47,8 @@
         <jcr.version>2.0</jcr.version>
         <jackrabbit.version>2.2.7</jackrabbit.version>
         <commons-io.version>1.4</commons-io.version>
+        <jta.version>1.1.1</jta.version>
+        <connector.version>2.0.0</connector.version>
 		<!-- compile -->
         <servlet.version>2.4</servlet.version>
         <jsp.version>2.0</jsp.version>
@@ -58,6 +60,7 @@
         <activemq.version>5.4.0</activemq.version>
         <wiser.version>1.2</wiser.version>
         <jwebunit.version>2.4</jwebunit.version>
+        <easymock.version>3.0</easymock.version>
 		<!-- plugin -->
         <compiler.version>2.0.2</compiler.version>
         <eclipse.versions>2.8</eclipse.versions>
@@ -175,6 +178,11 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-web</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
                 <version>${spring.version}</version>
             </dependency>
             <dependency>
@@ -389,6 +397,16 @@
                 <version>${jms.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.apache.geronimo.specs</groupId>
+                <artifactId>geronimo-jta_1.1_spec</artifactId>
+                <version>${jta.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.geronimo.specs</groupId>
+                <artifactId>geronimo-j2ee-connector_1.5_spec</artifactId>
+                <version>${connector.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>net.sourceforge.jwebunit</groupId>
                 <artifactId>jwebunit-core</artifactId>
                 <version>${jwebunit.version}</version>
@@ -471,11 +489,26 @@
                 <artifactId>jackrabbit-webapp</artifactId>
                 <version>${jackrabbit.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.jackrabbit</groupId>
+                <artifactId>jackrabbit-jca</artifactId>
+                <version>${jackrabbit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.jackrabbit</groupId>
+                <artifactId>jackrabbit-jcr-rmi</artifactId>
+                <version>${jackrabbit.version}</version>
+            </dependency>
             <!-- commons -->
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
                 <version>${commons-io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.easymock</groupId>
+                <artifactId>easymock</artifactId>
+                <version>${easymock.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
