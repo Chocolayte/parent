@@ -387,6 +387,11 @@
                 <version>${atomikos.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.jencks</groupId>
+                <artifactId>jencks</artifactId>
+                <version>${jencks.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>net.sf.json-lib</groupId>
                 <artifactId>json-lib</artifactId>
                 <classifier>jdk15</classifier>
