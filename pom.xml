@@ -73,7 +73,7 @@
         <sonar.version>2.0-beta-2</sonar.version>
         <source.version>2.1.2</source.version>
         <!-- site -->
-        <site.version>3.0-beta-3</site.version>
+        <site.version>3.0</site.version>
         <javadoc.version>2.6.1</javadoc.version>
         <project-info-reports.version>2.2</project-info-reports.version>
         <surefire-report.version>2.4.3</surefire-report.version>
