@@ -396,6 +396,16 @@
                 <version>${atomikos.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.atomikos</groupId>
+                <artifactId>transactions-jdbc</artifactId>
+                <version>${atomikos.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.atomikos</groupId>
+                <artifactId>transactions-jms</artifactId>
+                <version>${atomikos.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.jencks</groupId>
                 <artifactId>jencks</artifactId>
                 <version>${jencks.version}</version>
