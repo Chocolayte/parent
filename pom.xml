@@ -65,13 +65,14 @@
 		<!-- plugin -->
         <compiler.version>2.3.2</compiler.version>
         <eclipse.versions>2.8</eclipse.versions>
-        <antrun.version>1.3</antrun.version>
+        <antrun.version>1.6</antrun.version>
         <surefire.version>2.4.3</surefire.version>
         <failsafe.version>2.5</failsafe.version>
-        <dbunit-maven.version>1.0-beta-3</dbunit-maven.version>
         <migration.version>1.0.0</migration.version>
-        <sonar.version>2.0-beta-2</sonar.version>
+        <sonar.version>2.10-RC2</sonar.version>
         <source.version>2.1.2</source.version>
+        <versions.version>1.2</versions.version>
+        <enforcer.version>1.0.1</enforcer.version>
         <!-- site -->
         <site.version>3.0</site.version>
         <javadoc.version>2.6.1</javadoc.version>
@@ -80,7 +81,7 @@
         <jxr.version>2.1</jxr.version>
         <changelog.version>2.1</changelog.version>
         <changes.version>2.1</changes.version>
-        <checkstyle.version>2.6</checkstyle.version>
+        <checkstyle.version>2.7</checkstyle.version>
         <plugin.version>2.5.1</plugin.version>
         <pmd.version>2.5</pmd.version>
         <cobertura.version>2.5.1</cobertura.version>
@@ -538,6 +539,16 @@
                     <version>${eclipse.versions}</version>
                 </plugin>
                 <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>versions-maven-plugin</artifactId>
+                    <version>${versions.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-enforcer-plugin</artifactId>
+                    <version>${enforcer.version}</version>
+                </plugin>
+                <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-antrun-plugin</artifactId>
                     <version>${antrun.version}</version>
@@ -609,7 +620,7 @@
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>sonar-maven-plugin</artifactId>
+                    <artifactId>sonar-maven3-plugin</artifactId>
                     <version>${sonar.version}</version>
                 </plugin>
                 <plugin>
