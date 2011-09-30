@@ -73,7 +73,7 @@
         <surefire.version>2.4.3</surefire.version>
         <failsafe.version>2.5</failsafe.version>
         <migration.version>1.0.0</migration.version>
-        <sonar.version>2.10-RC2</sonar.version>
+        <sonar.version>2.10</sonar.version>
         <source.version>2.1.2</source.version>
         <versions.version>1.2</versions.version>
         <enforcer.version>1.0.1</enforcer.version>
