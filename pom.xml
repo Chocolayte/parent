@@ -745,8 +745,8 @@
                     <version>${source.version}</version>
                 </plugin>
                 <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>sonar-maven3-plugin</artifactId>
+                    <groupId>org.codehaus.sonar</groupId>
+	                <artifactId>sonar-maven3-plugin</artifactId>
                     <version>${sonar.version}</version>
                 </plugin>
                 <plugin>
