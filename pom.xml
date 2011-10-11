@@ -80,6 +80,7 @@
         <ant.version>1.6.5</ant.version>
         <war.version>2.1.1</war.version>
         <jar.version>2.3.1</jar.version>
+        <dependency.version>2.3</dependency.version>
         <!-- site -->
         <site.version>3.0</site.version>
         <javadoc.version>2.6.1</javadoc.version>
@@ -783,6 +784,11 @@
                     <groupId>org.apache.cxf</groupId>
                     <artifactId>cxf-codegen-plugin</artifactId>
                     <version>${cxf.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-dependency-plugin</artifactId>
+                    <version>${dependency.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
