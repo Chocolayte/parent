@@ -17,16 +17,16 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- runtime -->
-        <joda.version>2.0</joda.version>
-        <mybatis.version>3.0.4</mybatis.version>
-        <mybatis-spring.version>1.0.1</mybatis-spring.version>
+        <joda.version>2.1</joda.version>
+        <mybatis.version>3.1.0</mybatis.version>
+        <mybatis-spring.version>1.1.0</mybatis-spring.version>
         <generator.version>1.3.1</generator.version>
         <spring.version>3.0.5.RELEASE</spring.version>
-        <struts2.version>2.2.1.1</struts2.version>
+        <struts2.version>2.3.1.2</struts2.version>
         <jbpm4.version>4.4</jbpm4.version>
-        <activiti.version>5.7</activiti.version>
+        <activiti.version>5.9</activiti.version>
         <drools.version>5.1.1</drools.version>
-        <xmemcached.version>1.3.3</xmemcached.version>
+        <xmemcached.version>1.3.6</xmemcached.version>
         <atomikos.version>3.7.0</atomikos.version>
         <jencks.version>2.2</jencks.version>
         <tranql.version>1.2</tranql.version>
@@ -52,7 +52,7 @@
         <connector.version>2.0.0</connector.version>
         <cxf.version>2.4.2</cxf.version>
         <camel.version>2.8.0</camel.version>
-        <shiro.version>1.1.0</shiro.version>
+        <shiro.version>1.2.0</shiro.version>
         <!-- compile -->
         <servlet.version>2.5</servlet.version>
         <jsp.version>2.0</jsp.version>
@@ -60,7 +60,6 @@
         <junit.version>4.8.2</junit.version>
         <dbunit.version>2.4.8</dbunit.version>
         <h2.version>1.3.158</h2.version>
-        <jetty6.version>6.1.22</jetty6.version>
         <jetty7.version>7.4.5.v20110725</jetty7.version>
         <activemq.version>5.5.0</activemq.version>
         <wiser.version>1.2</wiser.version>
@@ -730,11 +729,6 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-failsafe-plugin</artifactId>
                     <version>${failsafe.version}</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.mortbay.jetty</groupId>
-                    <artifactId>maven-jetty-plugin</artifactId>
-                    <version>${jetty6.version}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.mortbay.jetty</groupId>
