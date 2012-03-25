@@ -60,7 +60,7 @@
         <junit.version>4.8.2</junit.version>
         <dbunit.version>2.4.8</dbunit.version>
         <h2.version>1.3.158</h2.version>
-        <jetty7.version>7.4.5.v20110725</jetty7.version>
+        <jetty7.version>7.6.2.v20120308</jetty7.version>
         <activemq.version>5.5.0</activemq.version>
         <wiser.version>1.2</wiser.version>
         <jwebunit.version>2.5</jwebunit.version>
