@@ -96,6 +96,7 @@
         <emma.version>1.0-alpha-3</emma.version>
         <findbugs.version>2.3.2</findbugs.version>
         <taglist.version>2.4</taglist.version>
+        <taglib.version>2.4</taglib.version>
     </properties>
 
     <dependencyManagement>
@@ -789,6 +790,11 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-assembly-plugin</artifactId>
                     <version>${assembly.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>net.sourceforge.maven-taglib</groupId>
+                    <artifactId>maven-taglib-plugin</artifactId>
+                    <version>${taglib.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
