@@ -26,7 +26,7 @@
         <jbpm4.version>4.4</jbpm4.version>
         <activiti.version>5.9</activiti.version>
         <drools.version>5.1.1</drools.version>
-        <xmemcached.version>1.3.6</xmemcached.version>
+        <xmemcached.version>1.3.8</xmemcached.version>
         <atomikos.version>3.7.0</atomikos.version>
         <jencks.version>2.2</jencks.version>
         <tranql.version>1.2</tranql.version>
