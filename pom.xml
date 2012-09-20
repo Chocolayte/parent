@@ -490,6 +490,16 @@
                 <version>${cxf.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.apache.cxf</groupId>
+                <artifactId>cxf-rt-ws-security</artifactId>
+                <version>${cxf.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.cxf</groupId>
+                <artifactId>cxf-rt-rs-security-xml</artifactId>
+                <version>${cxf.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.codehaus.jettison</groupId>
                 <artifactId>jettison</artifactId>
                 <version>${jettison.version}</version>
