@@ -48,6 +48,8 @@
         <jcr.version>2.0</jcr.version>
         <jackrabbit.version>2.4.2</jackrabbit.version>
         <commons-io.version>2.0.1</commons-io.version>
+        <commons-lang.version>2.5</commons-lang.version>
+        <commons-logging.version>1.1.1</commons-logging.version>
         <jta.version>1.1.1</jta.version>
         <connector.version>2.0.0</connector.version>
         <cxf.version>2.6.2</cxf.version>
@@ -644,6 +646,16 @@
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
                 <version>${commons-io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>${commons-lang.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-logging</groupId>
+                <artifactId>commons-logging</artifactId>
+                <version>${commons-logging.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.easymock</groupId>
