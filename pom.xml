@@ -64,6 +64,7 @@
         <dbunit.version>2.4.8</dbunit.version>
         <h2.version>1.3.158</h2.version>
         <jetty7.version>7.6.2.v20120308</jetty7.version>
+        <jetty8.version>8.1.15.v20140411</jetty8.version>
         <activemq.version>5.6.0</activemq.version>
         <wiser.version>1.2</wiser.version>
         <jwebunit.version>2.5</jwebunit.version>
@@ -777,7 +778,7 @@
                 <plugin>
                     <groupId>org.mortbay.jetty</groupId>
                     <artifactId>jetty-maven-plugin</artifactId>
-                    <version>${jetty7.version}</version>
+                    <version>${jetty8.version}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
