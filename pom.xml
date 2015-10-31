@@ -4,7 +4,7 @@
     <groupId>com.bulain</groupId>
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>parent</name>
     <url>https://github.com/bulain/parent</url>
 
@@ -52,10 +52,11 @@
         <commons-logging.version>1.1.1</commons-logging.version>
         <jta.version>1.1.1</jta.version>
         <connector.version>2.0.0</connector.version>
-        <cxf.version>2.6.2</cxf.version>
+        <cxf.version>2.7.12</cxf.version>
         <jettison.version>1.3.2</jettison.version>
         <camel.version>2.10.0</camel.version>
         <shiro.version>1.2.0</shiro.version>
+        <httpclient.version>4.3</httpclient.version>
         <!-- compile -->
         <servlet.version>2.5</servlet.version>
         <jsp.version>2.0</jsp.version>
@@ -69,6 +70,7 @@
         <wiser.version>1.2</wiser.version>
         <jwebunit.version>2.5</jwebunit.version>
         <easymock.version>3.0</easymock.version>
+        <mockito.version>1.9.5</mockito.version>
         <!-- plugin -->
         <compiler.version>2.3.2</compiler.version>
         <eclipse.versions>2.9</eclipse.versions>
@@ -549,6 +551,23 @@
                 <artifactId>shiro-spring</artifactId>
                 <version>${shiro.version}</version>
             </dependency>
+            <!-- httpclient -->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${httpclient.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpmime</artifactId>
+                <version>${httpclient.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpcore</artifactId>
+                <version>${httpclient.version}</version>
+            </dependency>
+            <!-- jwebunit -->
             <dependency>
                 <groupId>net.sourceforge.jwebunit</groupId>
                 <artifactId>jwebunit-core</artifactId>
@@ -662,6 +681,11 @@
                 <groupId>org.easymock</groupId>
                 <artifactId>easymock</artifactId>
                 <version>${easymock.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <version>${mockito.version}</version>
             </dependency>
             <!-- jetty7 -->
             <dependency>
